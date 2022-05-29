@@ -3,12 +3,10 @@
   margin: 0;
   box-sizing: border-box;
   background-color: #343a40;
+  font-family: "Ubuntu", sans-serif;
 }
 html {
   font-size: 62.5%;
-}
-.items:last-child {
-  margin-bottom: 10em;
 }
 
 body {
@@ -22,10 +20,6 @@ body {
 
 a {
   transition-duration: 0.25s;
-}
-a:hover,
-a:active {
-  transform: scale(1.025);
 }
 
 h2 {
@@ -54,12 +48,12 @@ h2 {
   text-decoration: none;
   display: inline-block;
   background-color: #087f5b;
-  padding: 3rem;
+  padding: 2rem 1rem;
   color: #fff;
   line-height: 1.2;
   align-items: center;
   border-radius: 9px;
-  min-height: 150px;
+  min-height: 120px;
   margin: auto 0;
 }
 .myphoto {
