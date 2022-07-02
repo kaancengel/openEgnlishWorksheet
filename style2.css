@@ -122,10 +122,15 @@ section p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 5rem 0;
+  overflow: hidden;
 }
 .side {
   padding: 0 4rem;
 }
+
+
+
+
 
 .mid {
   display: grid;
@@ -153,7 +158,7 @@ section p {
 
 .topics-grid div {
   background-color: #0b7285;
-  padding: 3vmin;
+  padding: 2rem;
 }
 
 .topics-grid div a {
@@ -203,12 +208,16 @@ section p {
   height: 100%;
   padding: 2rem;
   border-radius: 9px;
+  display: flex;
 
 }
 
 .mid h4 {
   font-size: 3.5em;
   text-transform: uppercase;
+  display: inline-block;
+  justify-self: center;
+  
 }
 
 
@@ -241,12 +250,12 @@ section p {
 .photo-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(auto-fit);
   justify-content: center;
   align-content: center;
   gap: 1rem;
   max-height: 100%;
   max-width: 100%;
+  grid-auto-rows: minmax(auto 400px);
   
 }
 
@@ -280,7 +289,7 @@ section p {
 } */
 
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
 
   .side {
     padding: 0 2rem;
@@ -288,5 +297,14 @@ section p {
 
   html {
     font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+
+  .topics-grid div a h4 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
   }
 }
