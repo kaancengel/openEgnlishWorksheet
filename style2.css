@@ -101,7 +101,7 @@ section{
 }
 
 .left-side h2 {
-  font-size: 5rem;
+  font-size: 3.5rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -227,7 +227,7 @@ section p {
 
 .left-side {
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 3fr;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -257,6 +257,14 @@ section p {
   max-width: 100%;
   grid-auto-rows: minmax(auto 400px);
   
+}
+
+
+
+
+
+.welcome {
+
 }
 
 .photo-container div img {
